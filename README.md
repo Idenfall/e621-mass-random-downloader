@@ -41,6 +41,7 @@ pip install aiohttp aiofiles tqdm
 ## Installation
 
 git clone https://github.com/Idenfall/e621-mass-random-downloader.git
+
 cd e621-random-downloader
 
 # Recommended: create a virtual environment
