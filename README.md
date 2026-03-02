@@ -66,58 +66,58 @@ python e621_random.py
 # **How to Use (with examples)**
 
 **Goal: Classic twink content**
--Tags: twink rating:e
--Count: 150
--Min Score: 20
--Notes: Most common entry point
+- Tags: twink rating:e
+- Count: 150
+- Min Score: 20
+- Notes: Most common entry point
 
 **Goal: High-quality bara**
--Tags: bara muscular male_only rating:e
--Count: 80
--Min Score: 70
--Notes: Focus on well-rated art
+- Tags: bara muscular male_only rating:e
+- Count: 80
+- Min Score: 70
+- Notes: Focus on well-rated art
 
 **Goal: Specific character**
--Tags: undertale sans rating:e
--Count: 60
--Min Score: 40
--Notes: Character-focused explicit
+- Tags: undertale sans rating:e
+- Count: 60
+- Min Score: 40
+- Notes: Character-focused explicit
 
 **Goal: Only videos**
--Tags: twink rating:e (type:webm OR type:mp4)
--Count: 30
--Min Score: 15
--Notes: Videos are slower – lower count advised
+- Tags: twink rating:e (type:webm OR type:mp4)
+- Count: 30
+- Min Score: 15
+- Notes: Videos are slower – lower count advised
 
 **Goal: Recent popular**
--Tags: furry rating:e age:<2w
--Count: 200
--Min Score: 50
--Notes: Last two weeks
+- Tags: furry rating:e age:<2w
+- Count: 200
+- Min Score: 50
+- Notes: Last two weeks
 
 **Goal: Exclude categories**
--Tags: male rating:e -human -feral -scalie
--Count: 250
--Min Score: 35
--Notes: -tag = exclude
+- Tags: male rating:e -human -feral -scalie
+- Count: 250
+- Min Score: 35
+- Notes: -tag = exclude
 
 **Goal: Multiple species (OR)**
--Tags: (dragon wolf fox tiger horse) twink rating:e
--Count: 120
--Min Score: 25
--Notes: Use parentheses
+- Tags: (dragon wolf fox tiger horse) twink rating:e
+- Count: 120
+- Min Score: 25
+- Notes: Use parentheses
 
 **Goal: Strict quality filter**
--Tags: rating:e score:>150 favcount:>100
--Count: 50
--Min Score: 150
--Notes: Extremely popular only
+- Tags: rating:e score:>150 favcount:>100
+- Count: 50
+- Min Score: 150
+- Notes: Extremely popular only
 
 **Goal: Classic furry**
--Tags: furry anthro rating:e -human
--Count: 300
--Min Score: 40
--Notes: Standard furry search
+- Tags: furry anthro rating:e -human
+- Count: 300
+- Min Score: 40
+- Notes: Standard furry search
 
 ---
 
