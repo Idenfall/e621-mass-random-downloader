@@ -78,13 +78,13 @@ python e621_random.py
  - Notes: Focus on well-rated art
 
 **Goal: Specific character**
- - Tags: undertale sans rating:e
+ - Tags: undertale_sans rating:e
  - Count: 60
  - Min Score: 40
  - Notes: Character-focused explicit
 
 **Goal: Only videos**
- - Tags: twink rating:e (type:webm OR type:mp4)
+ - Tags: animated rating:e
  - Count: 30
  - Min Score: 15
  - Notes: Videos are slower – lower count advised
@@ -114,7 +114,7 @@ python e621_random.py
  - Notes: Extremely popular only
 
 **Goal: Classic furry**
- - Tags: furry anthro rating:e -human
+ - Tags: furry rating:e -human
  - Count: 300
  - Min Score: 40
  - Notes: Standard furry search
