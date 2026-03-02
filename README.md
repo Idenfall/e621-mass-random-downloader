@@ -124,9 +124,13 @@ python e621_random.py
 ## Quick Tag Syntax Reminders
 
 Multi-word tags → "my little pony" or twilight_sparkle
+
 Exclude → -tag
+
 Optional → ~tag
+
 Age filters → age:>3d  age:<1y  age:<2w
+
 You can put score:>… directly in tags or use the GUI field
 
 ---
@@ -141,8 +145,11 @@ STOP
 
 Bypass / Retry
 → Fake unban simulation
+
 → Picks new random User-Agent
+
 → Logs fake comforting messages
+
 → **Does NOT bypass real IP bans**
 
 ---
