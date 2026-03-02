@@ -63,7 +63,7 @@ python e621_random.py
 
 ---
 
-### **How to Use (with examples)**
+# **How to Use (with examples)**
 
 **Goal: Classic twink content**
 -Tags: twink rating:e
