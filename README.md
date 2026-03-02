@@ -1,6 +1,6 @@
 # e621 mass Random Downloader
 
-Modern, asynchronous, multi-file downloader for **e621.net** with a clean Tkinter GUI.
+Modern, asynchronous, multi-file downloader for **e621.net** with a ~~clean Tkinter GUI~~ ass GUI.
 
 Downloads random posts according to your tags, with score filtering, video support (.webm/.mp4/.mov), skip-existing files logic, and a fake "Bypass ban" button for psychological comfort (yep really)
 
