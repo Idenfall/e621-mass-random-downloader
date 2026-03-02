@@ -2,17 +2,9 @@
 
 Modern, asynchronous, multi-file downloader for **e621.net** with a clean Tkinter GUI.
 
-Downloads random posts according to your tags, with score filtering, video support (.webm/.mp4/.mov), skip-existing files logic, and a fake "Bypass ban" button for psychological comfort 😄
+Downloads random posts according to your tags, with score filtering, video support (.webm/.mp4/.mov), skip-existing files logic, and a fake "Bypass ban" button for psychological comfort (yep really)
 
-Written in Python 3.11+ — uses asyncio + aiohttp + tqdm progress bars — thread-safe GUI.
-
----
-
-## Screenshot
-
-(Add a real screenshot here – recommended size ~820×680 px)
-
-![GUI Screenshot](screenshot.png)
+Written in Python 3.11+ — uses asyncio + aiohttp + tqdm progress bars (+ shitty Gui).
 
 ---
 
@@ -31,9 +23,8 @@ Written in Python 3.11+ — uses asyncio + aiohttp + tqdm progress bars — thre
 - Fake "Bypass / Retry" button:
   - Rotates User-Agent
   - Logs fake reassuring messages
-  - Does NOT bypass real IP bans
+  - **Does NOT bypass real IP bans**
 - Folder selection via native dialog
-- Scrollable log window
 
 ---
 
@@ -49,7 +40,7 @@ pip install aiohttp aiofiles tqdm
 
 ## Installation
 
-git clone https://github.com/YOUR_USERNAME/e621-random-downloader.git
+git clone https://github.com/Idenfall/e621-mass-random-downloader.git
 cd e621-random-downloader
 
 # Recommended: create a virtual environment
@@ -71,57 +62,57 @@ python e621_random.py
 
 ---
 
-## How to Use – Examples
+## **How to Use (with examples)**
 
-Goal: Classic twink content
+**Goal: Classic twink content**
 Tags: twink rating:e
 Count: 150
 Min Score: 20
 Notes: Most common entry point
 
-Goal: High-quality bara
+**Goal: High-quality bara**
 Tags: bara muscular male_only rating:e
 Count: 80
 Min Score: 70
 Notes: Focus on well-rated art
 
-Goal: Specific character
+**Goal: Specific character**
 Tags: undertale sans rating:e
 Count: 60
 Min Score: 40
 Notes: Character-focused explicit
 
-Goal: Only videos
+**Goal: Only videos**
 Tags: twink rating:e (type:webm OR type:mp4)
 Count: 30
 Min Score: 15
 Notes: Videos are slower – lower count advised
 
-Goal: Recent popular
+**Goal: Recent popular**
 Tags: furry rating:e age:<2w
 Count: 200
 Min Score: 50
 Notes: Last two weeks
 
-Goal: Exclude categories
+**Goal: Exclude categories**
 Tags: male rating:e -human -feral -scalie
 Count: 250
 Min Score: 35
 Notes: -tag = exclude
 
-Goal: Multiple species (OR)
+**Goal: Multiple species (OR)**
 Tags: (dragon wolf fox tiger horse) twink rating:e
 Count: 120
 Min Score: 25
 Notes: Use parentheses
 
-Goal: Strict quality filter
+**Goal: Strict quality filter**
 Tags: rating:e score:>150 favcount:>100
 Count: 50
 Min Score: 150
 Notes: Extremely popular only
 
-Goal: Classic furry
+**Goal: Classic furry**
 Tags: furry anthro rating:e -human
 Count: 300
 Min Score: 40
@@ -141,7 +132,7 @@ You can put score:>… directly in tags or use the GUI field
 
 ## Interface Buttons
 
-DÉMARRER
+Start
 → Start downloading
 
 STOP
@@ -151,7 +142,7 @@ Bypass / Retry
 → Fake unban simulation
 → Picks new random User-Agent
 → Logs fake comforting messages
-→ Does NOT bypass real IP bans
+→ **Does NOT bypass real IP bans**
 
 ---
 
@@ -160,7 +151,7 @@ Bypass / Retry
 If you get rate-limited or banned:
 
 - Change IP (VPN, mobile hotspot, proxy)
-- Wait 12–48 hours
+- Wait 1–48 hours (yes... 2 days)
 - Reduce count & speed
 
 ---
@@ -171,18 +162,19 @@ If you get rate-limited or banned:
 - Heavy usage can trigger temporary IP bans
 - Delays + UA rotation included, but no guarantee against bans
 - Respect site rules — do not redistribute content without permission
-- Not affiliated with e621.net
+- **Not affiliated with e621.net**
 
 ---
 
 ## Possible Future Improvements
 
-- SOCKS5 / HTTP proxy support
+- SOCKS5 / HTTP proxy support (maybe, but I'm too lazy so do it yourself)
 - Tag blacklist field in GUI
 - Failed download auto-retry
 - Thumbnail preview
 - Pause / resume queue
 - Better rate-limit / ban detection
+- Better GUI
 
 ---
 
@@ -190,7 +182,7 @@ If you get rate-limited or banned:
 
 MIT License (see LICENSE file)
 
----
+
 
 Made with too much coffee and way too many 429 / 502 / 403 errors.
 
