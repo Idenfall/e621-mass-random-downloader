@@ -179,10 +179,11 @@ If you get rate-limited or banned:
 - SOCKS5 / HTTP proxy support (maybe, but I'm too lazy so do it yourself)
 - Tag blacklist field in GUI
 - Failed download auto-retry
-- Thumbnail preview
+- ~~Thumbnail preview~~ Done
 - Pause / resume queue
 - Better rate-limit / ban detection
 - Better GUI
+- ~~Discord rich presence (because why not)~~ Done
 
 ---
 
@@ -192,6 +193,6 @@ MIT License (see LICENSE file)
 
 
 
-Made with too much coffee and way too many 429 / 502 / 403 errors.
+Made with too much milk and way too many errors.
 
-Happy (and responsible) downloading.
+Happy (and ~~responsible~~) downloading.
